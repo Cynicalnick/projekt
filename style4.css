@@ -23,3 +23,52 @@ p span {
 p span:hover {
     color: rgb(255, 159, 49);
 }
+form {
+    width: 50%;
+    margin: auto;
+    background-color: rgb(202, 202, 202);
+    border-radius: 1em;
+    margin-bottom: 1em;
+    font-weight: bold;
+}
+#Email1 {
+    width: 60%;
+    text-align: center;
+    margin-bottom: 1em;
+    background-color: #454545;
+    padding: 0.5em;
+    border-radius: 1em;
+    color: white;
+}
+#Select1 {
+    width: 50%;
+    text-align: center;
+    margin-bottom: 1em;
+    background-color: #454545;
+    padding: 0.5em;
+    border-radius: 1em;
+    color: white;
+}
+#Textarea1 {
+    width: 90%;
+    height:200px;
+    text-align: center;
+    margin-bottom: 1em;
+    background-color: #454545;
+    padding: 0.5em;
+    border-radius: 1em;
+    color: white;
+}
+form > button {
+    margin-bottom: 1em;
+    padding: .5em 1em;
+    background-color: #454545;
+    color: white;
+    border-radius: 1em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+form > button:hover {
+    background-color: rgb(255, 159, 49);
+    color: black;
+}
