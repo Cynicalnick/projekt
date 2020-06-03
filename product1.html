@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Mikolaj_Sas">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css"><link rel="stylesheet" href="style1.css">
+    <title>Document</title>
+</head>
+<body>
+    <container>
+        <header>
+            <figure><img id="logo" src="logo2.png"><a href="koszyk1.html" id="scart"><img src="shoppingcart.png"></a></figure>
+            <nav>
+                <ul>
+                    <a href="index.html"><li>Główna</li></a>
+                    <a href="kategorie1.html"><li>Kategorie</li></a>
+                    <a href="kontakt1.html"><li>Kontakt</li></a>
+                    <a href="#"><li>O nas</li></a>
+                </ul>
+                <span>
+                    <button><figure><a href="#" id="loopa"><img src="loopa.png"></a></figure></button>
+                    <input type="text" size="14" placeholder="szukaj">
+                </span>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <figure><img src="hoodie1.jpg" alt=""></figure>
+                <aside>
+                    <h3>Bluza z kapturem STUSSY</h3>
+                    <ul>
+                        <li>gładka bluza o regularnym kroju z długim rękawem</li>
+                        <li>wygodny, dresowy materiał</li>
+                        <li>drobna grafika z przodu</li>
+                        <li>kieszeń typu kangurka</li>
+                    </ul>
+                    <p><b>99,99zł</b><span> / 149,99zł</span></p>
+                    <h5>Kolor</h5>
+                    <input type="color" id="black" name="black" value="#000000">
+                    <br>
+                    <select name="Rozmiar" id="size-select">
+                        <option value="">  Wybierz rozmiar  </option>
+                        <option value="XS">XS</option>
+                        <option value="S">S</option>
+                        <option value="M">M</option>
+                        <option value="L">L</option>
+                        <option value="XL">XL</option>
+                        <option value="XXL">XXL</option>
+                    </select>
+                    <span> Ilość: </span>
+                    <input id="quantity" type="number" value="1" min="1" max="100">
+                    <br>
+                    <input id="addtocart" type="button" value="Dodaj do koszyka">
+                </aside>
+            </section>
+            <aside>
+                <figure><a href="#"><img src="ad.png" alt=""></a></figure>
+                <figure><a href="#"><img src="ad.png" alt=""></a></figure>
+            </aside>
+        </main>
+        <article>
+            <h3>Mogą ci się spodobać</h3>
+            <div>
+            <figure>
+                <img src="tee1.jpg" alt="">
+            </figure>
+            <figure>
+                <img src="shoes1.jpg" alt="">
+            </figure>
+            <figure>
+                <img src="buckethat.jpg" alt="">
+            </figure>
+        </div>
+        </article>
+        <footer>
+            <figure>
+                <a href=""><img id="logofooter" src="logo2.png"></a><p>&copy;Mikołaj Sas 2020</p>
+            </figure>
+            <section id="contact_info">
+                <ul>
+                    <a href="index.html"><li>Główna</li></a>
+                    <a href="kategorie1.html"><li>Kategorie</li></a>
+                    <a href="kontakt1.html"><li>Kontakt</li></a>
+                    <a href="#"><li>O nas</li></a>
+                </ul>
+            </section>
+            <section id="social_icon_footer">
+                <div class="block">
+                        <a href="https://www.facebook.com/bootsnipp"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
+                        <a href="https://twitter.com/bootsnipp"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
+                        <a href="https://plus.google.com/+Bootsnipp-page"><i id="social-gp" class="fa fa-google-plus-square fa-3x social"></i></a>
+                        <a href="mailto:#"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
+                </div>
+                <div class="opis">
+                    <p> ul.Cheems 21/37 | 420 133 769 | miko.s@onet.pl</p>
+                    <p>Nasza witryna używa plików cookies</p>
+                </div>
+            </section>
+        </footer>
+    </container>
+<script type="text/javascript">
+$(document).ready(function(){
+    $('.multiple-items').slick({
+  infinite: true,
+  dots: true,
+  slidesToShow: 3,
+  slidesToScroll: 3
+});
+    });
+  </script>
+
+</body>
+</html>

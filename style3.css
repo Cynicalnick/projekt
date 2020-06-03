@@ -1,0 +1,104 @@
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1em;
+    height: auto;
+}
+main section {
+    display: block;
+}
+main section #product{
+    width: 96%;
+    margin: auto;
+    background-color: rgb(69, 69, 69);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "pic txt txt txt";
+    border: 1px solid rgb(165, 165, 165);margin-top: .8em;
+}
+main section #product figure {
+    grid-area: pic;
+    padding: 1em;
+}
+main section #product figure img {
+    width: 100%;
+}
+main section #product aside {
+    width: 100%;
+    grid-area: txt;
+}
+main section #product aside h3 {
+    color: white;
+    margin: 1em;
+}
+main section #product aside p {
+    margin: 1em;
+    color: white;
+}
+main section #product aside p span {
+    color: rgb(165, 165, 165);
+    text-decoration: line-through;
+}
+main section #product aside p b {
+    color: rgb(255, 64, 46);
+    font-size: larger;
+}
+main section #product aside h5 {
+    margin: .5em;
+    margin-left: 1em;
+    color: white;
+}
+main section #product aside input {
+    margin-left: 1em;
+}
+main section #product aside select {
+    margin: 1em;
+    width: 9em;
+}
+main section #product aside #quantity {
+    width: 60px;
+    padding: .1em;
+    text-align: center;
+}
+main section #product aside #ilosc {
+    color: white;
+}
+main section #product aside #usun {
+    position: relative;
+    left: 12em;
+}
+main section #product aside #usun #button1 {
+    background-color: rgb(165, 165, 165);
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding: 0.5em 2em;
+    border-radius: 1em;
+}
+main section #kasa {
+    color: white;
+    margin-top: 0.8em;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(165, 165, 165);
+}
+main section #kasa span {
+    margin: 1em;
+    color: black;
+}
+main section #kasa #suma {
+    padding: 0.5em 1em;
+}
+main section #kasa #button2 {
+    color: black;
+    background-color: rgb(255, 159, 49);
+    padding: 0.5em 2em;
+    font-weight: bold;
+    border-radius: 1em;
+}
+footer {
+    margin-top:20px;
+}

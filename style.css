@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+container {
+    display: block;
+    width: 1138.4px;
+    margin: auto;
+}
+
+/*###################################### HEADER #########################################*/
+
+header {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+header figure {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 159, 49);
+}
+#logo {
+    width: 20%;
+    height: 20%;
+}
+#scart {
+    width: 3%;
+    height: 3%;
+    margin-top: 1.5em;
+    margin-right: 2.8em;
+    display: block;
+    padding: .5em;
+    border-radius: 3em;
+}
+#scart img {
+    width: 100%;
+}
+#scart:hover {
+    background-color: rgb(202, 202, 202);
+}
+header nav {
+    background-color: rgb(69, 69, 69);
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+header nav ul {
+    display: flex;
+    justify-content: left;
+}
+header nav ul li {
+    list-style: none;
+    padding: .3em;
+    background-color: rgb(202, 202, 202);
+    border-radius: 1em;
+    margin-right: 1em;
+    width: 6em;
+    text-align: center;
+}
+header nav ul li:hover {
+    background-color: rgb(255, 159, 49);
+}
+header nav ul a {
+    color: black;
+}
+header nav span {
+    display: flex;
+    justify-content: right;
+}
+header nav span button {
+    width: 4%;
+    background-color: rgb(69, 69, 69);
+    position: relative;
+    left: -.5em;
+}
+header nav span button figure {
+    background-color: white;
+    border-radius: 1em;
+}
+header nav span button a {
+    background: none;
+    width: 80%;
+    height: 80%;
+    padding: .1em;
+}
+header nav span button a img {
+    width: 100%;
+    position: relative;
+    right: -1px;
+    bottom: -1px;
+}
+header nav span input {
+    border-radius: 1em;
+    padding: .1em .5em;
+}
+
+
+/*###################################### MAIN #########################################*/
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1em;
+    height: 380px;
+}
+main section {
+    width: 70%;
+    background-color: rgb(69, 69, 69);
+}
+.multiple-items {
+    width: 90%;
+    margin: auto;
+    height: 340px;
+    padding-top: 20px;
+}
+.multiple-items figure {
+    background-color: white;
+    margin: 1em;
+}
+.multiple-items figure img {
+    display: block;
+    height: 170px;
+    margin: auto;
+    padding-top: 20px;
+}
+.multiple-items figure b {
+    padding: 2em;
+    position: relative;
+    top: .5em;
+}
+.multiple-items figure p {
+    padding: 1.7em 2em;
+    padding-top: 1em;
+}
+.multiple-items figure a {
+    color: black;
+}
+.slick-dots li button:before {
+    font-size: 20px;
+    line-height: 20px;
+    color:rgb(202, 202, 202) ;
+}
+.slick-dots li.slick-active button::before {
+    color: rgb(255, 159, 49);
+}
+
+/*######################### REKLAMA ###########################*/
+
+main aside {
+    width: 26%;
+    background-color: rgb(69, 69, 69);
+}
+main aside figure {
+    width: 74%;
+    margin: auto;
+    margin-top: 20px;
+}
+main aside figure img {
+    width: 100%;
+    margin: auto;
+}
+
+/*####################### FOOTER ########################*/
+
+footer {
+    background-color: rgb(69, 69, 69);
+    padding: 1em 0em;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+footer figure {
+    width: 30%;
+}
+footer figure img {
+    width: 70%;
+}
+footer figure p {
+    margin-left: 2em;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(202, 202, 202);
+}
+#social_icon_footer {
+    width: 46%;
+    background-color: rgb(69, 69, 69);
+    text-align: right;
+}
+#social_icon_footer a {
+    color: rgb(202, 202, 202);
+}
+.opis {
+    margin-top: 2em;
+    font-weight: bold;
+    color: rgb(202, 202, 202);
+}
+#social_icon_footer .social:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+  
+#social_icon_footer .social {
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+}
+#social_icon_footer #social-fb:hover {
+    color: #3B5998;
+}
+  
+#social_icon_footer #social-tw:hover {
+    color: #4099FF;
+}
+  
+#social_icon_footer #social-gp:hover {
+    color: #d34836;
+}
+  
+#social_icon_footer #social-em:hover {
+    color: #f39c12;
+}
+#contact_info ul {
+    padding-top: 1.3em;
+    text-decoration: none;
+    list-style: none;
+}
+#contact_info ul li {
+    color: rgb(202, 202, 202);
+}
+#contact_info ul li:hover {
+    color: rgb(255, 159, 49);
+}

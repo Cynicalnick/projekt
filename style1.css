@@ -1,0 +1,103 @@
+/*####################### PRODUCT ########################*/
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1em;
+}
+main section {
+    width: 70%;
+    background-color: rgb(69, 69, 69);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "pic pic txt txt txt";
+}
+main section figure {
+    grid-area: pic;
+    padding: 1em;
+}
+main section figure img {
+    width: 100%;
+}
+main section aside {
+    width: 100%;
+    grid-area: txt;
+}
+main section aside h3 {
+    color: white;
+    margin: 1em;
+}
+main section aside ul {
+    margin-left: 1em;
+    list-style: circle;
+    color: white;
+}
+main section aside p {
+    margin: 1em;
+}
+main section aside p span {
+    color: rgb(165, 165, 165);
+    text-decoration: line-through;
+}
+main section aside p b {
+    color: rgb(255, 64, 46);
+    font-size: larger;
+}
+main section aside h5 {
+    margin: .5em;
+    margin-left: 1em;
+    color: white;
+}
+main section aside input {
+    margin-left: 1em;
+}
+main section aside select {
+    margin: 1em;
+}
+main section aside #addtocart {
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 1.5em;
+    padding: .5em 1em;
+    background-color: rgb(255, 159, 49);
+}
+main section aside #quantity {
+    width: 60px;
+    padding: .1em;
+    text-align: center;
+}
+main section aside span {
+    color: white;
+}
+article h3 {
+    border-top: 1em solid #fff;
+    background-color: rgb(69, 69, 69);
+    text-align: center;
+    color: white;
+    width: 94.5%;
+    margin: auto;
+    padding: 1em;
+}
+article div {
+    display: flex;
+    justify-content: space-evenly;
+    width: 97.8%;
+    margin: auto;
+    background-color: rgb(69, 69, 69);
+    padding-bottom: 2em;
+}
+article div figure {
+    width: 30%;
+}
+article div figure:hover{
+    opacity: 30%;
+    cursor: pointer;
+}
+article div figure img{
+    width: 100%;
+}
+footer {
+    margin-top:20px;
+}
